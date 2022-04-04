@@ -4,7 +4,7 @@ const appId = "ovGexWPDPmjAicKtMrzuKMcqGZPWho76BCwKacLA";
 Moralis.start({ serverUrl, appId });
 let user = Moralis.User.current();
 
-/** Add from here down */
+/** Add from here down, include function calls */
 async function login() {
   if (!user) {
    try {
